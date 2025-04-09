@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="Animation.css">
+    <link rel="stylesheet" href="querys.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+        integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+    <link rel="icon" href="Assets/clinic favicon.jpg" sizes="48x48" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="container mt-2">
+            <div class="row">
+                <div class="col">
+                    <div class="navbar navbar-expand-lg">
+                        <a href="#" class="navbar-brand">
+                            <img src="Assets/clinic_Main_logo.png" alt="Logo" class="logo">
+                        </a>
+                        <h1 class="Main">AMMA CLINIC</h1>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynav">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="mynav">
+                            <ul class="navbar-nav nav-pills ms-auto">
+                                <li class="nav-item">
+                                    <a href="index.html" class="nav-link me-2">
+                                        <i class="bi bi-house-fill"></i> Home
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="Treatments.html" class="nav-link me-2">
+                                        <i class="bi bi-heart-pulse-fill"></i> Treatments</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="About.html" class="nav-link me-2">
+                                        <i class="bi bi-person-fill"></i> About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="#" class="nav-link me-2 active text-white">
+                                        <i class="bi bi-telephone-fill"></i> Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container mb-3 ">
+        <div class="row g-0 dc">
+            <div class="col-sm-12 col-md-6 col-lg-6">
+                <div class="display-6 mb-4 mt-4 text-center benifit">
+                    Our Contact Information
+                </div>
+                <!-- Contact Information-->
+                <!-- cicard -->
+                <div class="d-flex justify-content-center">
+                    <div
+                        class="card  dummy1 text-white d-flex justify-content-center flex-sm-column flex-lg-row  mb-4 gap-2 ">
+                        <div class="col-sm col-lg-6  dummy2">
+                            <!--contact  -->
+                            <img src="Assets/Contact Card.png" alt="Hospital Logo" class="img-fluid rounded-start">
+                        </div>
+                        <div class="col-sm col-lg-6 text-center">
+                            <div class="card-body text-center">
+                                <span class="badge text-bg-success">Contact Number:</span><br>
+                                <span>+91 6304 426 692</span><br>
+                                <span>+91 8074 331 267</span><br>
+                                <span class="badge text-bg-primary">Email:</span>
+                                <span>ryanriyaz23@gmail.com</span>
+                            </div>
+                            <div class="card-footer text-center">
+                                <span class="badge text-bg-primary">Timings:</span><br>
+                                <span>Mon-Sat: 9am to 8pm</span><br>
+                                <span>Sun:9am to 12pm</span><br>
+                                <span class="badge text-bg-primary mb-1">Address:</span>
+                                <div class="card-text">Near Thachayamma,Ellappa Reddy Kandriga
+                                    Road,Elakatur Village,Nindra Mandal ,Chittoor
+                                    Dist..,A.p, _517591.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-6">
+                <div class="display-6 mb-4 mt-4 text-center benifit">
+                    Need An appointment..?
+                </div>
+                <!-- Appointment Form -->
+                <div class="d-flex justify-content-center">
+                    <div class="card details d-flex fc">
+                        <div class="card-header">
+                            <div class="card-title text-center ">
+                                <h5>Fill The Below Details</h5>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <form id="contactForm">
+                                <div class="d-flex justify-content-center mb-3">
+                                    <label for="text" class="form-label me-2">Name: </label>
+                                    <input type="text" class="form-control w-50 " id="name" placeholder="Enter Your Name">
+                                </div>
+                                <div class="d-flex justify-content-center mb-3">
+                                    <label for="number" class="form-label me-3">Age:</label>
+                                    <input type="number" class="form-control w-50 " id="age" placeholder="Enter Your Age">
+                                </div>
+                                <div class="d-flex justify-content-center mb-3">
+                                    <label for="number" class="form-label me-1">Phone:</label>
+                                    <input type="number" class="form-control w-50 " id="phone" placeholder="Enter Your Number">
+                                </div>
+                                <div class="d-flex justify-content-center gap-1 mb-3">
+                                    <label for="gender" class="form-lable" id="gender">Gender </label>
+                                    <div class="form-check">
+                                        <input type="radio" class="form-check-input" id="male" name="gender" value="Male">
+                                        <label for="male"> Male</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input type="radio" class="form-check-input" id="female" name="gender" value="Female">
+                                        <label for="female">Female</label>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-center mb-3">
+                                    <button type="submit" class="btn btn-success w-75">Submit</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+        <div class="footer py-4">
+            <div class="container text-white text-center">
+                <div class="row">
+                    <div class="col-lg col-md-6 col-sm mb-2 text-sm-center">
+                        <h3>Dr.M Riyaz</h3>
+                        <span>Providing basic treatments for common ailments such as cold, flu, headaches, and
+                            more.</span>
+                        <br>
+                        <a href="contact.html" class=" badge text-bg-info p-2 text-decoration-none hc mt-2">Book an
+                            appointment
+                            today!</a>
+                    </div>
+                    <!-- Navigation -->
+                    <div class="col-lg col-md-6 col-sm mb-2 text-sm-center">
+                        <h5>Navigation</h5>
+                        <a href="index.html" class="text-decoration-none"><i class="bi bi-house-fill"></i> Home</a><br>
+                        <a href="Treatments.html" class="text-decoration-none"> <i class="bi bi-heart-pulse-fill"></i>
+                            Treatments</a><br>
+                        <a href="About.html" class="text-decoration-none"><i class="bi bi-person-fill"></i>
+                            About</a><br>
+                        <a href="contact.html" class="text-decoration-none"><i class="bi bi-telephone-fill"></i>
+                            Contact</a><br>
+                    </div>
+                    <div class="col-lg col-md-6 col-sm mb-2 text-sm-center">
+                        <h5>Information</h5>
+                        <span>+91 6304 426 692,</span><br>
+                        <span>+91 8074 331 267</span><br>
+                        <span>ryanriyaz23@gmail.com</span>
+                    </div>
+                    <div class="col-lg col-md-6 col-sm mb-2 text-sm-center">
+                        <h5>Opening Hours</h5>
+                        <span>Mon-Sat: 9am to 8pm</span><br>
+                        <span>sun:9am to 12pm</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col text-sm-center mt-3">
+                        <span>&copy; 2025 Abdul Web Solutions Company.<span> All rights reserved.</span></span>
+                        <span>Website designed and developed by Abdul</span>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="container d-flex justify-content-center ms-auto">
+                <div class="row">
+                    <div class="col">
+                        <a
+                            href="https://www.instagram.com/hey_i_m.__.ryan_riyaz?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i
+                                class="bi bi-instagram ico"></i></a>
+                        <a href=""><i class="bi bi-twitter ico"></i></a>
+                        <a href="mailto:ryanriyaz23@gmail.com"><i class="bi bi-envelope-fill ico"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.8/umd/popper.min.js"
+        integrity="sha512-TPh2Oxlg1zp+kz3nFA0C5vVC6leG/6mm1z9+mA81MI5eaUVqasPLO8Cuk4gMF4gUfP5etR73rgU/8PNMsSesoQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
