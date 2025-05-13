@@ -7,7 +7,8 @@ html {
 }
 
 body {
-    background: linear-gradient(to right, #6b7280, #22c55e, #4ade80);}
+background: conic-gradient(at top right, #be185d, #f472b6, #fbcfe8);
+}
 .Main {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: white;
